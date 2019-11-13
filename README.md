@@ -1,3 +1,5 @@
+<img src="https://github.com/michael-russin/webview2-dotnetbrowser/blob/master/icon.png" width="96">
+
 ## webview2-dotnetbrowser
 When Microsoft revealed their plans for a Chrome based Edge browser the first thing I thought was "I wonder if they are going to support an embedded web browser control"?  Well sure enough they released [WebView2](https://github.com/MicrosoftEdge/WebView2Browser) and I've been keeping an eye on the releases.  Recently I found a great [sample](https://github.com/MicrosoftEdge/WebView2Browser) written by [David Risney](https://github.com/david-risney) and I was inspired to take a shot at putting together a C# version.
 
