@@ -20,7 +20,6 @@ Clone the repository and open the solution in Visual Studio. Microsoft.Web.WebVi
 
 - Clone this repository
 - Open the solution in Visual Studio 2019 (2017 should also work)
-- Make the changes listed below if you're using a Windows version below Windows 10.
 - Set the target you want to build 
 - Build the solution
 
