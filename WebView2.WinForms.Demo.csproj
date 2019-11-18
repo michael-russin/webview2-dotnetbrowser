@@ -42,11 +42,11 @@
     <ApplicationIcon>app.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MtrDev.WebView2.Interop, Version=0.8.270.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\MtrDev.WebView2.Interop.0.8.314.1\lib\net45\MtrDev.WebView2.Interop.dll</HintPath>
+    <Reference Include="MtrDev.WebView2.Interop, Version=0.8.270.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MtrDev.WebView2.Interop.0.8.314.2\lib\net45\MtrDev.WebView2.Interop.dll</HintPath>
     </Reference>
-    <Reference Include="MtrDev.WebView2.Winforms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\MtrDev.WebView2.WinForms.0.8.314.1\lib\net45\MtrDev.WebView2.Winforms.dll</HintPath>
+    <Reference Include="MtrDev.WebView2.Winforms, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MtrDev.WebView2.WinForms.0.8.314.2\lib\net45\MtrDev.WebView2.Winforms.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -65,6 +65,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
+    <Compile Include="PopupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopupForm.Designer.cs">
+      <DependentUpon>PopupForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SafeNativeMethods.cs" />
@@ -77,6 +83,9 @@
     <Compile Include="WebView2Browser.Designer.cs">
       <DependentUpon>WebView2Browser.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PopupForm.resx">
+      <DependentUpon>PopupForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
