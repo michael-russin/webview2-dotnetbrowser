@@ -25,6 +25,7 @@ Clone the repository and open the solution in Visual Studio. Microsoft.Web.WebVi
 
 ## Functionality
 For now check out the [C++ sample readme](https://github.com/MicrosoftEdge/WebView2Browser/blob/master/README.md) while I find some time to modify it for this project.
+* Added handling of NewWindowRequested event 
 
 ## Links
 - Project homepage: https://github.com/michael-russin/webview2-dotnetbrowse
