@@ -59,7 +59,6 @@ namespace MtrDev.WebView2.WinForms.Demo
             this.controlsWebView2.AreDevToolsEnabled = true;
             this.controlsWebView2.BackColor = System.Drawing.SystemColors.Control;
             this.controlsWebView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.controlsWebView2.IsFullscreenAllowed = true;
             this.controlsWebView2.Location = new System.Drawing.Point(0, 0);
             this.controlsWebView2.Margin = new System.Windows.Forms.Padding(0);
             this.controlsWebView2.Name = "controlsWebView2";
@@ -76,7 +75,6 @@ namespace MtrDev.WebView2.WinForms.Demo
             this.webView2Control2.AreDevToolsEnabled = true;
             this.webView2Control2.BackColor = System.Drawing.SystemColors.Control;
             this.webView2Control2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webView2Control2.IsFullscreenAllowed = true;
             this.webView2Control2.Location = new System.Drawing.Point(4, 91);
             this.webView2Control2.Margin = new System.Windows.Forms.Padding(4);
             this.webView2Control2.Name = "webView2Control2";
